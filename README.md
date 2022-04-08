@@ -1,3 +1,8 @@
+
+# Info
+
+This project is a simple React app that use the Giphy Api to refresh some concepts about React and practice test.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

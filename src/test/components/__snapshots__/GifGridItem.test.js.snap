@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifGridItem debe mostrar el componente correctamente 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="Title"
+    src="https://media1.giphy.com/media/l0HlJn1y7z2QkQ7p2/200w.gif"
+  />
+  <p
+    className="card-title"
+  >
+    Title
+  </p>
+</div>
+`;

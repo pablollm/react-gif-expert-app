@@ -11,7 +11,7 @@ const handleInputChange = (e) => {
 const handleSubmit = (e) => {
     e.preventDefault()
     if(inputValue.trim().length > 2){
-        setCategories([inputValue,...categories])
+        setCategories(categories =>[inputValue,...categories])
         setInputValue('')
     }
 }

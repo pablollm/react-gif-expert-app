@@ -1,10 +1,16 @@
-import React from 'react'
+ import React from 'react'
+ import PropTypes from 'prop-types'
 
-export const GifGridItem = ({gif}) => {
+export const GifGridItem = ({title,url}) => {
   return (
         <div className="card">
-            <img src={gif.url} alt={gif.title}/>
-            <p className='card-title'>{gif.title}</p>
+            <img src={url} alt={title}/>
+            <p className='card-title'>{title}</p>
         </div>
   )
 }
+
+GifGridItem.propTypes = {
+ title: PropTypes.string.isRequired,
+ url: PropTypes.string.isRequired
+} 
